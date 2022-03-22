@@ -8,8 +8,8 @@ import java.util.List;
 @Service
 public class InfoService
 {
-    private List<Info> infos = Arrays.asList(new Info("Gujarat","Ahmedabad","India","395007"),
-            new Info("Tamil Nadu","Chennai","India","480046")
+    private List<Info> infos = Arrays.asList(new Info(" Bihar","Patna","India","432004"),
+            new Info("Karnataka","Bengaluru","India","432006")
     );
 
     public List<Info> getAllInfo()
