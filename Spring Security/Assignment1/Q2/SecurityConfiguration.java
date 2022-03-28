@@ -24,7 +24,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter{
 		//H2 database Authentication 
 		
 		  auth.jdbcAuthentication().dataSource(dataSource) .withDefaultSchema()
-		  .withUser(User.withUsername("akshat").password("akshat").roles("USER"))
+		  .withUser(User.withUsername("ravi").password("ravi").roles("USER"))
 		  .withUser(User.withUsername("admin").password("admin").roles("ADMIN")) 
 	}
 
