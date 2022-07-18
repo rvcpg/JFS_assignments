@@ -1,0 +1,158 @@
+$dark1:rgb(143, 84, 16);
+$dark2:rgb(255, 183, 3);
+$light1:rgb(238, 236, 235);
+$light2:rgb(7, 6, 7);
+$dark3:rgb(29, 48, 58);
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+body {
+  background-image: url("https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?cs=srgb&dl=pexels-pixabay-258154.jpg&fm=jpg");
+
+
+
+    background-blend-mode:lighten;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    margin: 0px;
+    font-family: 'Mukta', sans-serif;
+    scroll-behavior: smooth;
+    transition: ease-in-out 0.5s;
+}
+nav{
+    ul {
+      list-style-type:none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      top: 0;
+    }
+    li {
+      float:right;
+    }
+    li a {
+      display:block;
+      color:black;
+      text-align: center;
+      font-size: 1.2em;
+      font-weight: bold;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    li a:hover {
+      background-color:coral;
+    }
+    .active {
+      background-color:coral;
+  }
+  }
+  h1{
+    font-size: 4em;
+    font-weight:bold;
+    color:black;
+    text-align: center;
+  }
+  h2{
+    font-size: 2em;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+  }
+  footer{
+    font-size: 1em;
+    font-weight: bold;
+    color:black;
+    text-align:center;
+  }
+  table{
+    border-collapse:collapse;
+    border-style:solid;
+    border-width: 1px;
+    outline-style:dashed;
+    outline-color:black;
+    outline-width: 5px;
+    width: 600px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color:black;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align:center;
+    background-color: $light2;
+    opacity: 1.2;
+    text-align:center;
+    cursor: pointer;
+  }
+  th{
+    background-color:red;
+    color:black;
+  }
+  tr:nth-child(even){
+    background-color:coral;
+  }
+  tr:nth-child(odd){
+    background-color:cadetblue;
+  }
+  td{
+    padding: 20px;
+  }
+ input[type=text],input[type=number], select {
+    padding: 12px 20px;
+    margin-left:  1%;
+    box-sizing:content-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color:white;
+    color:black;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+ }
+ button {
+    background-color:red;
+    color:white;
+    padding: 12px 20px;
+    margin-left:  1%;
+    border:black;
+    border-radius: 4px;
+    cursor:grab;
+
+  }
+  button:hover {
+    background-color:red;
+    color:white;
+    transform: scale(1.1);
+  }
+  h3{
+    margin-left: 1%;
+    font-size: 2em;
+    font-weight:bold;
+    color:black;
+  }
+  label{
+    font-size: 1.2em;
+    font-weight: bold;
+    color:black;
+    margin-left: 1%;
+  }
+  form{
+    margin-left: 1%;
+    padding: 10px;
+  }
+  div{
+    margin-left: 1%;
+    padding: 10px;
+  }
+  .social-icons-list {
+    list-style: none;
+    padding: 0;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+}

@@ -1,0 +1,17 @@
+<h1 style="color:rgb(14, 13, 13)">Namaste 🙏</h1>
+<h2 style="color:black"><marquee>What would you like to have today?😋</marquee></h2>
+<footer>
+<div class="creator-part">
+  <div class="copyright-text">
+      <p>©Ravi, Shivansh, Sourav</p>
+  </div>
+</div>
+</footer>
+<table >
+  <th>Restaurant</th>
+  <th>Menu🍗</th>
+  <tr *ngFor="let r of restmenu| keyvalue" routerLink="/order/{{r.key}}">
+      <td>{{r.key}}</td>
+      <td>{{r.value}}</td>
+  </tr>
+</table>
